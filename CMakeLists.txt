@@ -20,15 +20,8 @@ if (NOT CONFIGURED_ONCE)
 endif()
 
 set(CMAKE_CXX_FLAGS "-std=c++11")
-
-#include_directories(${CMAKE_CURRENT_SOURCE_DIR}/ToDoCore)
-
-#add_subdirectory(ToDoCore)
-
 add_executable(thread thread1.cpp)
-#target_link_libraries(toDo toDoCore)
 
-#add_test(toDoTest toDo)
 
 
 set(CONFIGURED_ONCE TRUE CACHE INTERNAL
